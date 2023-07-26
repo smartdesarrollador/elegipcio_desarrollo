@@ -1,0 +1,37 @@
+.contenedor-carrito {
+    border: solid #b2bec3;
+    border-radius: 30px;
+}
+
+.cart-image {
+    width: 150px;
+}
+
+.btn-seguirComprando {
+    color: #fff !important;
+    background: #9C0001;
+    border-radius: 20px;
+}
+
+.separador-subrayado-titulo {
+    border-bottom: 3px solid #b2bec3;
+}
+
+.btn-pedir {
+    width: 139px;
+    color: #9C0001 !important;
+    background: #EEEE16;
+    border-radius: 10px;
+    font-family: "Oswald";
+    font-size: 31px;
+    font-weight: bold;
+    margin-left: 16px;
+    cursor: pointer;
+    border: transparent;
+    text-decoration: none !important;
+    padding: 10px;
+
+}
+.progress-bar-complementos{
+    background-color: #b2bec3 !important;
+}

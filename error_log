@@ -1,0 +1,823 @@
+[16-Oct-2022 17:59:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[16-Oct-2022 17:59:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[16-Oct-2022 17:59:34 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-pollo.php(11): ProductoClass->getProductoById('252'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[24-Oct-2022 09:22:51 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[24-Oct-2022 09:22:51 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[24-Oct-2022 09:22:51 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[24-Oct-2022 16:13:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[24-Oct-2022 16:13:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[24-Oct-2022 16:13:06 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[26-Oct-2022 03:36:40 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[26-Oct-2022 03:36:40 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[26-Oct-2022 03:36:40 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[28-Oct-2022 22:47:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[28-Oct-2022 22:47:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[28-Oct-2022 22:47:59 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[28-Oct-2022 23:33:50 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[28-Oct-2022 23:33:50 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[28-Oct-2022 23:33:50 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[02-Nov-2022 23:16:30 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[02-Nov-2022 23:16:30 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[02-Nov-2022 23:16:30 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-bowl-mediano-y-chicha.php(12): ProductoClass->getProductoById('244'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[06-Nov-2022 07:46:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[06-Nov-2022 07:46:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[06-Nov-2022 07:46:34 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[07-Nov-2022 22:40:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[07-Nov-2022 22:40:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[07-Nov-2022 22:40:59 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[10-Nov-2022 04:58:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[10-Nov-2022 04:58:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[10-Nov-2022 04:58:14 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[11-Nov-2022 07:45:31 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[11-Nov-2022 07:45:31 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[11-Nov-2022 07:45:31 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[14-Nov-2022 20:11:43 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[14-Nov-2022 20:11:43 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[14-Nov-2022 20:11:43 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[20-Nov-2022 22:34:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[20-Nov-2022 22:34:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[20-Nov-2022 22:34:27 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[22-Nov-2022 02:19:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[22-Nov-2022 02:19:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[22-Nov-2022 02:19:36 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[01-Dec-2022 04:45:15 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[01-Dec-2022 04:45:15 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[01-Dec-2022 04:45:15 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''252''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-pollo.php(11): ProductoClass->getProductoById('252'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[01-Dec-2022 22:57:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[01-Dec-2022 22:57:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[01-Dec-2022 22:57:14 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''253''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[04-Dec-2022 06:24:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[04-Dec-2022 06:24:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[04-Dec-2022 06:24:27 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''247''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[04-Dec-2022 14:53:51 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[04-Dec-2022 14:53:51 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[04-Dec-2022 14:53:51 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[11-Dec-2022 04:20:53 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[11-Dec-2022 04:20:53 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[11-Dec-2022 04:20:53 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[11-Dec-2022 10:11:13 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[11-Dec-2022 10:11:13 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[11-Dec-2022 10:11:13 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:45:32 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:45:32 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:45:32 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')(,.").,)'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253')(,.").,)')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:45:33 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:45:33 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:45:33 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'YOSRGl<'">ViCLhs'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'YOSRGl<'">V...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:45:48 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:45:48 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:45:48 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND 2464=2010 AND ('BoXn'='BoXn'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253') AND 2464=...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:45:49 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:45:49 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:45:49 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND 8158=8158 AND ('NthX'='NthX'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253') AND 8158=...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:47:01 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:47:01 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:47:01 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '5986' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 5...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:47:03 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:47:03 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:47:03 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '20' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 2...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:47:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:47:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:47:06 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '18' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 1...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:47:07 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:47:07 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:47:07 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '17' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 1...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:54:12 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:54:12 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:54:12 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40 AND 'jWDK'='jWDK'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND 92 40 ...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:54:20 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:54:20 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:54:20 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta FUNCTION elegipci_egipciov2.JSON_STORAGE_FREE does not exist in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND ISNULL...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[12-Dec-2022 11:54:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[12-Dec-2022 11:54:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[12-Dec-2022 11:54:27 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta FUNCTION elegipci_egipciov2.AURORA_VERSION does not exist in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND AURORA...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[23-Dec-2022 01:23:32 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[23-Dec-2022 01:23:32 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[23-Dec-2022 01:23:32 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''253''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[25-Dec-2022 13:18:17 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[25-Dec-2022 13:18:17 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[25-Dec-2022 13:18:17 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''247''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[28-Dec-2022 00:27:03 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[28-Dec-2022 00:27:03 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[28-Dec-2022 00:27:03 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''253''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[28-Dec-2022 06:48:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[28-Dec-2022 06:48:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[28-Dec-2022 06:48:06 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[30-Dec-2022 14:15:29 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[30-Dec-2022 14:15:29 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[30-Dec-2022 14:15:29 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''252''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-pollo.php(11): ProductoClass->getProductoById('252'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[03-Jan-2023 06:45:23 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[03-Jan-2023 06:45:23 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[03-Jan-2023 06:45:23 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-bowl-mediano-y-chicha.php(12): ProductoClass->getProductoById('244'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[16-Jan-2023 01:16:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[16-Jan-2023 01:16:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[16-Jan-2023 01:16:55 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''358''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-salsa-alitas.php(11): ProductoClass->getProductoById('358'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[16-Jan-2023 01:44:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[16-Jan-2023 01:44:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[16-Jan-2023 01:44:06 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''247''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[16-Jan-2023 02:58:38 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[16-Jan-2023 02:58:38 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[16-Jan-2023 02:58:38 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[17-Jan-2023 06:17:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[17-Jan-2023 06:17:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[17-Jan-2023 06:17:45 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[22-Jan-2023 19:51:23 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[22-Jan-2023 19:51:23 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[22-Jan-2023 19:51:23 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[24-Jan-2023 03:32:43 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[24-Jan-2023 03:32:43 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[24-Jan-2023 03:32:43 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-pollo.php(11): ProductoClass->getProductoById('252'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[26-Jan-2023 11:59:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[26-Jan-2023 11:59:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[26-Jan-2023 11:59:27 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[27-Jan-2023 04:09:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[27-Jan-2023 04:09:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[27-Jan-2023 04:09:36 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[27-Jan-2023 19:34:57 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[27-Jan-2023 19:34:57 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[27-Jan-2023 19:34:57 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[02-Feb-2023 20:39:52 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[02-Feb-2023 20:39:52 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[02-Feb-2023 20:39:52 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[03-Feb-2023 08:25:24 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[03-Feb-2023 08:25:24 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[03-Feb-2023 08:25:24 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '244 '' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-bowl-mediano-y-chicha.php(12): ProductoClass->getProductoById(''244 ')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[04-Feb-2023 01:00:43 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[04-Feb-2023 01:00:43 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[04-Feb-2023 01:00:43 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''253''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 18:07:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 18:07:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 18:07:34 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-salsa-alitas.php(11): ProductoClass->getProductoById('358'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:14 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')(..(,()'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253"')(..(,()')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:14 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'YcphVi<'">TUlwVz'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'YcphVi<'">T...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:31 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:31 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:31 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND 5023=7604 AND ('YSgO'='YSgO'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253') AND 5023=...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:31 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:31 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:31 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND 2996=2996 AND ('MfTR'='MfTR'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253') AND 2996=...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:54 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:54 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:54 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '9851' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 9...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:55 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '20' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 2...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:56 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:56 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:56 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '18' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 1...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:05:56 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:05:56 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:05:56 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '17' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 1...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:09:10 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:09:10 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:09:10 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '35 AND 'pghI'='pghI'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND 47 35 ...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:10:11 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:10:11 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:10:11 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta FUNCTION elegipci_egipciov2.JSON_STORAGE_FREE does not exist in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND ISNULL...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:10:13 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:10:13 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:10:13 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta FUNCTION elegipci_egipciov2.AURORA_VERSION does not exist in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND AURORA...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:20:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:20:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:20:36 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253".).)(.)',')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:20:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:20:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:20:36 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tdSsCX<'">nWzDyM'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253'tdSsCX<'">n...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:21:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:21:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:21:45 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND 7188=4589 AND ('AeOE'='AeOE'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253') AND 7188=...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:21:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:21:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:21:45 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND 5452=5452 AND ('zFKx'='zFKx'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253') AND 5452=...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:22:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:22:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:22:06 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT PG_SLEEP(5)--'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253';SELECT PG_...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:22:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:22:06 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:22:06 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WAITFOR DELAY '0:0:5'--'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253';WAITFOR DE...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:22:07 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:22:07 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:22:07 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WAITFOR DELAY '0:0:5' AND 'RsSS'='RsSS'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' WAITFOR DE...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:22:08 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:22:08 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:22:08 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '7059' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 7...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:22:09 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:22:09 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:22:09 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '20' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 2...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:22:10 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:22:10 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:22:10 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '18' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 1...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:22:10 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:22:10 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:22:10 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Unknown column '17' in 'order clause' in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' ORDER BY 1...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:25:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:25:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:25:59 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '81 AND 'fMxM'='fMxM'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND 97 81 ...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:26:19 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:26:19 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:26:19 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta FUNCTION elegipci_egipciov2.JSON_STORAGE_FREE does not exist in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND ISNULL...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[05-Feb-2023 19:26:22 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[05-Feb-2023 19:26:22 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[05-Feb-2023 19:26:22 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta FUNCTION elegipci_egipciov2.AURORA_VERSION does not exist in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-mixto.php(12): ProductoClass->getProductoById('253' AND AURORA...')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[07-Feb-2023 10:22:19 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[07-Feb-2023 10:22:19 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[07-Feb-2023 10:22:19 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''247''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[09-Feb-2023 05:04:50 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[09-Feb-2023 05:04:50 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[09-Feb-2023 05:04:50 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[11-Feb-2023 07:57:48 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[11-Feb-2023 07:57:48 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[11-Feb-2023 07:57:48 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''252''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-pollo.php(11): ProductoClass->getProductoById('252'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[11-Feb-2023 10:19:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[11-Feb-2023 10:19:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[11-Feb-2023 10:19:55 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-pollo.php(11): ProductoClass->getProductoById('252'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[11-Feb-2023 21:28:16 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[11-Feb-2023 21:28:16 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[11-Feb-2023 21:28:16 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''244''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-bowl-mediano-y-chicha.php(12): ProductoClass->getProductoById('244'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[15-Feb-2023 05:08:26 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[15-Feb-2023 05:08:26 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[15-Feb-2023 05:08:26 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[16-Feb-2023 10:24:56 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[16-Feb-2023 10:24:56 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[16-Feb-2023 10:24:56 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[17-Feb-2023 11:03:21 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[17-Feb-2023 11:03:21 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[17-Feb-2023 11:03:21 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[17-Feb-2023 15:06:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[17-Feb-2023 15:06:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[17-Feb-2023 15:06:45 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''358''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-salsa-alitas.php(11): ProductoClass->getProductoById('358'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[17-Feb-2023 15:28:44 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[17-Feb-2023 15:28:44 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[17-Feb-2023 15:28:44 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[22-Feb-2023 13:11:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[22-Feb-2023 13:11:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[22-Feb-2023 13:11:34 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[22-Feb-2023 15:48:44 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[22-Feb-2023 15:48:44 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[22-Feb-2023 15:48:44 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[23-Feb-2023 12:24:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[23-Feb-2023 12:24:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[23-Feb-2023 12:24:59 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[23-Feb-2023 14:10:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[23-Feb-2023 14:10:55 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[23-Feb-2023 14:10:55 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[24-Feb-2023 22:45:25 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[24-Feb-2023 22:45:25 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[24-Feb-2023 22:45:25 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[24-Feb-2023 23:58:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[24-Feb-2023 23:58:34 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[24-Feb-2023 23:58:34 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''246''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-premium.php(11): ProductoClass->getProductoById('246'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[27-Feb-2023 23:08:05 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[27-Feb-2023 23:08:05 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[27-Feb-2023 23:08:05 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''358''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-salsa-alitas.php(11): ProductoClass->getProductoById('358'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[03-Mar-2023 12:51:12 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[03-Mar-2023 12:51:12 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[03-Mar-2023 12:51:12 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''252''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-combo-al-peso-pollo.php(11): ProductoClass->getProductoById('252'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[09-Mar-2023 16:45:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[09-Mar-2023 16:45:36 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[09-Mar-2023 16:45:36 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''244''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-bowl-mediano-y-chicha.php(12): ProductoClass->getProductoById('244'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[13-Mar-2023 05:41:13 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[13-Mar-2023 05:41:13 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[13-Mar-2023 05:41:13 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''244''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-bowl-mediano-y-chicha.php(12): ProductoClass->getProductoById('244'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[15-Mar-2023 11:16:30 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[15-Mar-2023 11:16:30 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[15-Mar-2023 11:16:30 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0]'' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'[0]')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[08-Apr-2023 02:08:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[08-Apr-2023 02:08:45 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[08-Apr-2023 02:08:45 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''224''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-shawerma-bowl.php(11): ProductoClass->getProductoById('224'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[13-Apr-2023 08:34:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 39
+[13-Apr-2023 08:34:59 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/public_html/class/ProductoClass.php on line 115
+[13-Apr-2023 08:34:59 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''247''' at line 1 in /home1/elegipcio/public_html/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/elegipcio/public_html/class/ProductoClass.php(108): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/elegipcio/public_html/egipcio-falafel-premium.php(12): ProductoClass->getProductoById('247'')
+#2 {main}
+  thrown in /home1/elegipcio/public_html/class/AccesoBD.class.php on line 28
+[21-Apr-2023 10:36:58 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 19
+[21-Apr-2023 10:36:58 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'elegipci_egipcio'@'localhost' (using password: YES) in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php:11
+Stack trace:
+#0 /home1/enfocus/public_html/sitios/elegipcio/class/TiendaClass.php(22): AccesoBD::ConexionBD(Array)
+#1 /home1/enfocus/public_html/sitios/elegipcio/egipcio-carta.php(7): TiendaClass->__construct()
+#2 {main}
+  thrown in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 11
+[21-Apr-2023 10:38:20 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 39
+[21-Apr-2023 10:38:20 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php on line 55
+[21-Apr-2023 10:38:20 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Table 'enfocus_egipcio.productos' doesn't exist in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php(48): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/enfocus/public_html/sitios/elegipcio/egipcio-carta.php(9): ProductoClass->getTipoProductosAndOrderByPosicion(2)
+#2 {main}
+  thrown in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 28
+[21-Apr-2023 10:38:26 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 39
+[21-Apr-2023 10:38:26 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php on line 55
+[21-Apr-2023 10:38:26 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Table 'enfocus_egipcio.productos' doesn't exist in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php(48): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/enfocus/public_html/sitios/elegipcio/egipcio-carta.php(9): ProductoClass->getTipoProductosAndOrderByPosicion(2)
+#2 {main}
+  thrown in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 28
+[21-Apr-2023 10:39:38 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 39
+[21-Apr-2023 10:39:38 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php on line 55
+[21-Apr-2023 10:39:38 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Table 'enfocus_egipcio.productos' doesn't exist in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php(48): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/enfocus/public_html/sitios/elegipcio/egipcio-carta.php(9): ProductoClass->getTipoProductosAndOrderByPosicion(2)
+#2 {main}
+  thrown in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 28
+[21-Apr-2023 10:41:51 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 39
+[21-Apr-2023 10:41:51 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php on line 55
+[21-Apr-2023 10:41:51 America/Chicago] PHP Fatal error:  Uncaught Exception: Error en la consulta Table 'enfocus_egipcio.productos' doesn't exist in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php:28
+Stack trace:
+#0 /home1/enfocus/public_html/sitios/elegipcio/class/ProductoClass.php(48): AccesoBD::Consultar(Object(mysqli), 'SELECT * FROM p...')
+#1 /home1/enfocus/public_html/sitios/elegipcio/egipcio-carta.php(9): ProductoClass->getTipoProductosAndOrderByPosicion(2)
+#2 {main}
+  thrown in /home1/enfocus/public_html/sitios/elegipcio/class/AccesoBD.class.php on line 28
