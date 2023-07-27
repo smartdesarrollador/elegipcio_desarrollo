@@ -45,7 +45,6 @@ let btnCloseAddressSelectorModal = D.getElementById('btnCloseAddressSelectorModa
 let radiostoreSelectorRecojo = D.getElementById('storeSelectorRecojo');
 let radiostoreSelectorDelivery = D.getElementById('storeSelectorDelivery');
 let selectStoreSelectorElement = D.getElementById('selectStoreSelector');
-
 let deliveryInputContainer = D.getElementById('deliveryInputContainer');
 let recojoInputContainer = D.getElementById('recojoInputContainer');
 
@@ -295,14 +294,14 @@ function setMetodoDenvio(metodo) {
 }
 
 function ValidateModalBody(event) {
-    
+
     event.preventDefault();
     console.log(event.target.href)
     if (isNull(localStorage.getItem('address')).length > 2
         && isNull(localStorage.getItem('lat')).length > 2
         && isNull(localStorage.getItem('lng')).length > 0) {
         //window.location = event.target.href;
-       
+
 
         return false;
     }
@@ -312,14 +311,14 @@ function ValidateModalBody(event) {
 
 
 function buyProductAndValidate(event) {
-    
+
     event.preventDefault();
     console.log(event.target.href)
     if (isNull(localStorage.getItem('address')).length > 2
         && isNull(localStorage.getItem('lat')).length > 2
         && isNull(localStorage.getItem('lng')).length > 0) {
         window.location = event.target.href;
-       
+
 
         return false;
     }

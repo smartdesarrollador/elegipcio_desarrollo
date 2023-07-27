@@ -199,12 +199,12 @@ span.buttonText {
     -ms-user-select: none;
 }
 
-input:checked+label {
+input:checked + label {
     background-color: #fce024 !important;
     color: #9C0001;
 }
 
-input:checked+label:after {
+input:checked + label:after {
     font-family: FontAwesome;
     background-color: #fce024 !important;
     color: #9C0001;
@@ -215,25 +215,28 @@ input:checked+label:after {
     z-index: 9999 !important;
 }
 
-.bg-egipcio-yellow {
+.bg-egipcio-yellow{
     background-color: #fbf005;
 }
 
-.marco-carrito-categoria {
+.marco-carrito-categoria{
     border: 1px solid #b2bec3;
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
 }
 
-.mensaje_delivery {
+.mensaje_delivery{
     color: #9C0001;
     font-size: 25px;
     font-weight: bold;
 }
 
-.boton_elegipcio_1 {
+.boton_elegipcio_1{
     color: #9C0001;
     font-size: 25px;
     font-weight: bold;
 }
+
+
+
