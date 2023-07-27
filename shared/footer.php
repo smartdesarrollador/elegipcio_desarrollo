@@ -191,6 +191,10 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                         <h5>Tipo de pedido</h5>
                                     </div>
                                 </div>
+
+
+
+
                                 <div class="row">
                                     <div class="col">
                                         <input onclick="selectShippinMethodClick(this)" value="DELIVERY" name="tipoReparto" checked class="d-none" type="radio" id="storeSelectorDelivery">
@@ -204,6 +208,10 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                         </label>
                                     </div>
                                 </div>
+
+
+
+
                             </div>
 
                         </div>
@@ -231,6 +239,8 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                 </div>
                             </div>
                         </div>
+
+                        
                         <div class="row">
                             <div class="col-12">
                                 <h5 id="map-titleStore" class="d-none">Precisa tu ubicación</h5>
