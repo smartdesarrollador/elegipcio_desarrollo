@@ -136,7 +136,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
 </div> -->
 
 <!-- Modal -->
-<div class="modal fade" data-backdrop="static" id="modalStoreSelector">
+<div class="modal fade" data-backdrop="static" id="modalStoreSelectorLocal">
     <div class="modal-dialog " role="document">
         <div class="modal-content" style="border-radius:30px">
             <!--  <div class="modal-header text-center">
@@ -154,20 +154,136 @@ if (isset($_SESSION['deliveryZoneId'])) {
             <div class="modal-body">
                 <div class="row">
                     <div class="col text-center">
-                        <a href="#" class="btn btn-light btn-lg btn-block"><strong>Lince</strong></a>
+                        <a href="#" class="btn btn-light btn-lg btn-block" id="selectStoreSelectorLince" value="1"><strong>Lince</strong></a>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col text-center">
-                        <a href="#" class="btn btn-light btn-lg btn-block"><strong>Surco</strong></a>
+                        <a href="#" class="btn btn-light btn-lg btn-block" id="selectStoreSelectorSurco" value="2"><strong>Surco</strong></a>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col text-center">
-                        <a href="#" class="btn btn-light btn-lg btn-block"><strong>San Miguel</strong></a>
+                        <a href="#" class="btn btn-light btn-lg btn-block" id="selectStoreSelectorSanMiguel" value="3"><strong>San Miguel</strong></a>
                     </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" data-backdrop="static" id="modalStoreSelector">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content">
+           <!--  <div class="modal-header text-center">
+                <h3 class="text-center m-auto">CAMBIAR DIRECCIÓN <img class="mb-2" src="assets/img/egypt.png" alt="" style="width: 35px"></h3>
+            </div> -->
+            <div class="modal-header" align="center">
+                <img id="img_logo" src="assets/img/navbar/logo.png" width="200">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div>
+                <h5 class="text-center">Selecciona el Tipo de entrega</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <form class="col" id="formStoreSelector">
+
+                        <input type="hidden" id="hiddenLatInput">
+                        <input type="hidden" id="hiddenLngInput">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+
+                                <?php
+                                if ($tiendaFooter) {
+                                ?>
+
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5>Tu lugar de despacho es:</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <ul>
+                                                <li>
+                                                    <h5><?= $tiendaFooter['direccion_tienda'] ?></h5>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                <?php
+                                }
+                                ?>
+
+
+                                <div class="row">
+                                    <div class="col">
+                                        <h5>Tipo de pedido</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <input onclick="selectShippinMethodClick(this)" value="DELIVERY" name="tipoReparto" checked class="d-none" type="radio" id="storeSelectorDelivery">
+                                        <label for="storeSelectorDelivery" class="ingrediente-button w-100 align-self-end mt-auto text-center">Delivery
+                                        </label>
+                                    </div>
+                                    <div class="col">
+                                        <input onclick="selectShippinMethodClick(this)" value="RECOJO" name="tipoReparto" class="d-none" type="radio" id="storeSelectorRecojo">
+                                        <label for="storeSelectorRecojo" class="zona-button w-100 align-self-end mt-auto text-center">Recojo
+                                            en tienda
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row justify-content-center d-none" id="deliveryInputContainer">
+                            <div class="col-12">
+                                <h5>Tu dirección</h5>
+                                <div class="form-group">
+                                    <input type="text" class="form-control text-center" id="storeSelectorInput">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center d-none" id="recojoInputContainer">
+                            <div class="col-12">
+                                <h5>Selecciona un Local</h5>
+                                <div class="form-group">
+                                    <select name="selectStoreSelector" id="selectStoreSelector" class="form-control text-center">
+                                        <option disabled selected>Selecciona un Local</option>
+                                        <option value="1">Julio Cesar Tello 886 - Lince</option>
+                                        <option value="2">Av. El Polo 121 - Surco</option>
+                                        <option value="3">Intisuyo 187 - San Miguel</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 id="map-titleStore" class="d-none">Precisa tu ubicación</h5>
+                                <div id="mapStoreSelector"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="text-center mt-5">
+                            <button id="saveAddressInformationBtn" type="submit" class="btn btn-primary btn-block btn-lg">Guardar
+                            </button>
+                            <a id="btnCloseAddressSelectorModal" data-dismiss="modal" class="btn btn-outline-primary btn-block btn-lg" style="color:black;">Cancelar</a>
+                        </div>
+                    </form>
                 </div>
             </div>
 
