@@ -281,7 +281,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
 
 
                         <div class="text-center mt-1">
-                            <button id="saveAddressInformationBtn" type="submit" class="btn btn-primary btn-block btn-lg d-none">Guardar
+                            <button id="saveAddressInformationBtn" type="submit" class="btn btn-primary btn-block btn-lg">Guardar
                             </button>
                             <a id="btnCloseAddressSelectorModal" data-dismiss="modal" class="btn btn-outline-primary btn-block btn-lg d-none" style="color:black;">Cancelar</a>
                         </div>

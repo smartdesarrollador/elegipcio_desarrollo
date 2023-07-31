@@ -472,7 +472,7 @@ function selectShippinMethodClick(element) {
     //recojoInputContainer.classList.remove("d-none");
     deliveryInputContainer.classList.add("d-none");
     btnCloseAddressSelectorModal.classList.add("d-none");
-    saveAddressInformationBtn.classList.add("d-none");
+
 
     if (selectStoreSelectorElement.value * 1 === 1) {
       hiddenLatInput.value = "-12.08656225960654";
