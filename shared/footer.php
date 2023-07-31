@@ -154,19 +154,19 @@ if (isset($_SESSION['deliveryZoneId'])) {
             <div class="modal-body">
                 <div class="row">
                     <div class="col text-center">
-                        <button type="button" class="btn btn-light btn-lg btn-block selectStoreSelector"><strong>Lince</strong></button>
+                        <a href="#" class="btn btn-light btn-lg btn-block"><strong>Lince</strong></a>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col text-center">
-                        <button type="button" class="btn btn-light btn-lg btn-block selectStoreSelector"><strong>Surco</strong></button>
+                        <a href="#" class="btn btn-light btn-lg btn-block"><strong>Surco</strong></a>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col text-center">
-                        <button type="button" class="btn btn-light btn-lg btn-block selectStoreSelector"><strong>San Miguel</strong></button>
+                        <a href="#" class="btn btn-light btn-lg btn-block"><strong>San Miguel</strong></a>
                     </div>
                 </div>
             </div>
