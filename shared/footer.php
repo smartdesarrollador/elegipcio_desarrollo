@@ -144,7 +144,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
             </div> -->
             <div class="modal-header" align="center">
                 <img id="img_logo" src="assets/img/navbar/logo.png" width="100">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
             </div>
@@ -177,12 +177,12 @@ if (isset($_SESSION['deliveryZoneId'])) {
 
 <div class="modal fade" data-backdrop="static" id="modalStoreSelector">
     <div class="modal-dialog " role="document">
-        <div class="modal-content">
+        <div class="modal-content" style="border-radius:30px">
            <!--  <div class="modal-header text-center">
                 <h3 class="text-center m-auto">CAMBIAR DIRECCIÓN <img class="mb-2" src="assets/img/egypt.png" alt="" style="width: 35px"></h3>
             </div> -->
             <div class="modal-header" align="center">
-                <img id="img_logo" src="assets/img/navbar/logo.png" width="200">
+                <img id="img_logo" src="assets/img/navbar/logo.png" width="100">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
@@ -237,10 +237,13 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                         </label>
                                     </div>
                                     <div class="col">
+                                       <!--  <button id="storeSelectorRecojo" type="submit" class="zona-button w-100 align-self-end mt-auto text-center" value="RECOJO">Recojo
+                                        </button> -->
                                         <input onclick="selectShippinMethodClick(this)" value="RECOJO" name="tipoReparto" class="d-none" type="radio" id="storeSelectorRecojo">
                                         <label for="storeSelectorRecojo" class="zona-button w-100 align-self-end mt-auto text-center">Recojo
                                             en tienda
                                         </label>
+
                                     </div>
                                 </div>
                             </div>
@@ -278,10 +281,10 @@ if (isset($_SESSION['deliveryZoneId'])) {
                         </div>
 
 
-                        <div class="text-center mt-5">
-                            <button id="saveAddressInformationBtn" type="submit" class="btn btn-primary btn-block btn-lg">Guardar
+                        <div class="text-center mt-1">
+                            <button id="saveAddressInformationBtn" type="submit" class="btn btn-primary btn-block btn-lg d-none">Guardar
                             </button>
-                            <a id="btnCloseAddressSelectorModal" data-dismiss="modal" class="btn btn-outline-primary btn-block btn-lg" style="color:black;">Cancelar</a>
+                            <a id="btnCloseAddressSelectorModal" data-dismiss="modal" class="btn btn-outline-primary btn-block btn-lg d-none" style="color:black;">Cancelar</a>
                         </div>
                     </form>
                 </div>

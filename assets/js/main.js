@@ -73,6 +73,9 @@ selectStoreSelectorLince.addEventListener("click", (ev) => {
   hiddenLngInput.value = "-77.04190387146318";
 
   storeSelectorInput.value = "Julio Cesar Tello 872 - Lince";
+
+  openAddressSelectorModalOpciones();
+  $("#modalStoreSelectorLocal").modal("hide");
 });
 
 selectStoreSelectorSurco.addEventListener("click", (ev) => {
@@ -86,6 +89,9 @@ selectStoreSelectorSurco.addEventListener("click", (ev) => {
   hiddenLatInput.value = "-12.109648733552977";
   hiddenLngInput.value = "-76.97506836692882";
   storeSelectorInput.value = "Av. El Polo 121 - Surco";
+
+  openAddressSelectorModalOpciones();
+  $("#modalStoreSelectorLocal").modal("hide");
 });
 
 selectStoreSelectorSanMiguel.addEventListener("click", (ev) => {
@@ -100,6 +106,9 @@ selectStoreSelectorSanMiguel.addEventListener("click", (ev) => {
   hiddenLngInput.value = "-77.0894599";
 
   storeSelectorInput.value = "Intisuyo 187 - San Miguel";
+
+  openAddressSelectorModalOpciones();
+  $("#modalStoreSelectorLocal").modal("hide");
 });
 
 console.log(
@@ -179,7 +188,7 @@ function initialAddressLoader() {
       hiddenLatInput.value = localStorage.getItem("lat") || "";
       hiddenLngInput.value = localStorage.getItem("lng") || "";
     } else if (shippingType === "RECOJO") {
-      recojoInputContainer.classList.remove("d-none");
+      //recojoInputContainer.classList.remove("d-none");
       radiostoreSelectorRecojo.checked = true;
       selectStoreSelectorElement.value = localStorage.getItem("store") || "";
     }
@@ -353,6 +362,17 @@ function openAddressSelectorModal() {
   }
 }
 
+function openAddressSelectorModalOpciones() {
+  let addressIsSelected = localStorage.getItem("addressIsSelected");
+  $("#modalStoreSelector").modal("show");
+  if (!addressIsSelected) {
+    btnCloseAddressSelectorModal.style.display = "none";
+  }
+  if (addressIsSelected !== "1") {
+    btnCloseAddressSelectorModal.style.display = "none";
+  }
+}
+
 async function destroyCart() {
   return fetch("./script/cart/destroyCart.php")
     .then((value) => value.text())
@@ -440,6 +460,8 @@ function selectShippinMethodClick(element) {
   if (element.value === "DELIVERY") {
     deliveryInputContainer.classList.remove("d-none");
     recojoInputContainer.classList.add("d-none");
+    //btnCloseAddressSelectorModal.classList.remove("d-none");
+    saveAddressInformationBtn.classList.remove("d-none");
 
     hiddenLatInput.value = "";
     hiddenLngInput.value = "";
@@ -447,8 +469,10 @@ function selectShippinMethodClick(element) {
     storeSelectorInput.value = "";
   }
   if (element.value === "RECOJO") {
-    recojoInputContainer.classList.remove("d-none");
+    //recojoInputContainer.classList.remove("d-none");
     deliveryInputContainer.classList.add("d-none");
+    btnCloseAddressSelectorModal.classList.add("d-none");
+    saveAddressInformationBtn.classList.add("d-none");
 
     if (selectStoreSelectorElement.value * 1 === 1) {
       hiddenLatInput.value = "-12.08656225960654";
