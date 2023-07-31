@@ -144,7 +144,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
             </div> -->
             <div class="modal-header" align="center">
                 <img id="img_logo" src="assets/img/navbar/logo.png" width="100">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
             </div>
@@ -178,7 +178,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
 <div class="modal fade" data-backdrop="static" id="modalStoreSelector">
     <div class="modal-dialog " role="document">
         <div class="modal-content" style="border-radius:30px">
-           <!--  <div class="modal-header text-center">
+            <!--  <div class="modal-header text-center">
                 <h3 class="text-center m-auto">CAMBIAR DIRECCIÓN <img class="mb-2" src="assets/img/egypt.png" alt="" style="width: 35px"></h3>
             </div> -->
             <div class="modal-header" align="center">
@@ -237,11 +237,10 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                         </label>
                                     </div>
                                     <div class="col">
-                                       <!--  <button id="storeSelectorRecojo" type="submit" class="zona-button w-100 align-self-end mt-auto text-center" value="RECOJO">Recojo
+                                        <!--  <button id="storeSelectorRecojo" type="submit" class="zona-button w-100 align-self-end mt-auto text-center" value="RECOJO">Recojo
                                         </button> -->
                                         <input onclick="selectShippinMethodClick(this)" value="RECOJO" name="tipoReparto" class="d-none" type="radio" id="storeSelectorRecojo">
                                         <label for="storeSelectorRecojo" class="zona-button w-100 align-self-end mt-auto text-center">Recojo
-                                            en tienda
                                         </label>
 
                                     </div>
