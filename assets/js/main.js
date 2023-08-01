@@ -54,6 +54,8 @@ let selectStoreSelectorElement = D.getElementById("selectStoreSelector");
 let deliveryInputContainer = D.getElementById("deliveryInputContainer");
 let recojoInputContainer = D.getElementById("recojoInputContainer");
 
+let local_elegido = D.getElementById("local_elegido");
+
 var geocoderStore = new google.maps.Geocoder();
 
 let finalLat;
@@ -76,6 +78,8 @@ selectStoreSelectorLince.addEventListener("click", (ev) => {
 
   openAddressSelectorModalOpciones();
   $("#modalStoreSelectorLocal").modal("hide");
+
+  local_elegido.innerHTML = "Lince";
 });
 
 selectStoreSelectorSurco.addEventListener("click", (ev) => {
@@ -92,6 +96,8 @@ selectStoreSelectorSurco.addEventListener("click", (ev) => {
 
   openAddressSelectorModalOpciones();
   $("#modalStoreSelectorLocal").modal("hide");
+
+  local_elegido.innerHTML = "Surco";
 });
 
 selectStoreSelectorSanMiguel.addEventListener("click", (ev) => {
@@ -109,6 +115,8 @@ selectStoreSelectorSanMiguel.addEventListener("click", (ev) => {
 
   openAddressSelectorModalOpciones();
   $("#modalStoreSelectorLocal").modal("hide");
+
+  local_elegido.innerHTML = "San Miguel";
 });
 
 console.log(
@@ -474,7 +482,6 @@ function selectShippinMethodClick(element) {
     //recojoInputContainer.classList.remove("d-none");
     deliveryInputContainer.classList.add("d-none");
     btnCloseAddressSelectorModal.classList.add("d-none");
-
 
     if (selectStoreSelectorElement.value * 1 === 1) {
       hiddenLatInput.value = "-12.08656225960654";

@@ -195,17 +195,16 @@ span.buttonText {
   -ms-user-select: none;
 }
 
-input:checked+label {
+input:checked + label {
   background-color: #fce024 !important;
   color: #9c0001;
 }
 
-input:checked+label:after {
+input:checked + label:after {
   font-family: FontAwesome;
   background-color: #fce024 !important;
   color: #9c0001;
   content: "\f00c";
-  display: none;
 }
 
 .swal2-container {
@@ -234,3 +233,20 @@ input:checked+label:after {
   font-size: 25px;
   font-weight: bold;
 }
+
+/* Cambiar el color de la "x" de cerrar a negro */
+.custom-close-btn .fa-times {
+  color: black !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Cambiar el color de relleno del botón a amarillo */
+/* .custom-close-btn {
+  background-color: yellow !important;
+  border: none !important; 
+  border-radius: 40px;
+  text-shadow: none !important;
+  margin: 0px;
+  padding: 0px;
+} */

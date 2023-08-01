@@ -144,7 +144,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
             </div> -->
             <div class="modal-header" align="center">
                 <img id="img_logo" src="assets/img/navbar/logo.png" width="100">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close custom-close-btn" data-dismiss="modal" aria-label="Close" style="color:red;">
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
             </div>
@@ -187,7 +187,9 @@ if (isset($_SESSION['deliveryZoneId'])) {
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
             </div>
+            
             <div>
+                <h5 class="text-center text-warning" id="local_elegido"></h5>
                 <h5 class="text-center">Selecciona el Tipo de entrega</h5>
             </div>
             <div class="modal-body">
@@ -204,7 +206,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                 ?>
 
 
-                                    <div class="row">
+                                   <!--  <div class="row">
                                         <div class="col">
                                             <h5>Tu lugar de despacho es:</h5>
                                         </div>
@@ -219,17 +221,17 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                             </ul>
 
                                         </div>
-                                    </div>
+                                    </div> -->
                                 <?php
                                 }
                                 ?>
 
 
-                                <div class="row">
+                              <!--   <div class="row">
                                     <div class="col">
                                         <h5>Tipo de pedido</h5>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="row">
                                     <div class="col">
                                         <input onclick="selectShippinMethodClick(this)" value="DELIVERY" name="tipoReparto" checked class="d-none" type="radio" id="storeSelectorDelivery">
