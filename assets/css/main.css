@@ -182,7 +182,7 @@ span.buttonText {
   margin-top: 20px;
   margin-bottom: 10px;
   background-color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #fce024;
   border-radius: 5px;
   padding: 10px;
   font-size: 20px;
@@ -195,12 +195,12 @@ span.buttonText {
   -ms-user-select: none;
 }
 
-input:checked + label {
-  background-color: #fff !important;
+input:checked+label {
+  background-color: #fce024 !important;
   color: #9c0001;
 }
 
-input:checked + label:after {
+input:checked+label:after {
   font-family: FontAwesome;
   background-color: #fce024 !important;
   color: #9c0001;

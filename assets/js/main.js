@@ -260,22 +260,24 @@ formStoreSelector.addEventListener("submit", async function (event) {
           }
 
           console.log(coordenadasDB);
-          const isConfirmed = await Swal.fire({
-            title: "Está seguro?",
-            text:
-              "La direccion ingresada es cercana a nuestro local de " +
-              local +
-              ", esto provocara que se cambien los productos disponibles, \n" +
-              "por lo tanto se eliminaran los productos del carrito",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#dd3333",
-            cancelButtonColor: "#3085d6",
-            confirmButtonText: "Continuar",
-            cancelButtonText: "Cancelar",
-          });
+          /*  const isConfirmed = await Swal.fire({
+             title: "Está seguro?",
+             text:
+               "La direccion ingresada es cercana a nuestro local de " +
+               local +
+               ", esto provocara que se cambien los productos disponibles, \n" +
+               "por lo tanto se eliminaran los productos del carrito",
+             icon: "warning",
+             showCancelButton: true,
+             confirmButtonColor: "#dd3333",
+             cancelButtonColor: "#3085d6",
+             confirmButtonText: "Continuar",
+             cancelButtonText: "Cancelar",
+           }); */
 
-          if (isConfirmed.value) {
+          const isConfirmed = true;
+
+          if (isConfirmed) {
             let cartIsDeleted = await destroyCart();
             console.warn(cartIsDeleted);
             if (cartIsDeleted) {
