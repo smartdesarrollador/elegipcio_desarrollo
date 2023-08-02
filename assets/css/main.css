@@ -195,12 +195,12 @@ span.buttonText {
   -ms-user-select: none;
 }
 
-input:checked + label {
+input:checked+label {
   background-color: #fce024 !important;
   color: #9c0001;
 }
 
-input:checked + label:after {
+input:checked+label:after {
   font-family: FontAwesome;
   background-color: #fce024 !important;
   color: #9c0001;
@@ -238,7 +238,9 @@ input:checked + label:after {
 .custom-close-btn .fa-times {
   color: black !important;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 10px;
 }
 
 /* Cambiar el color de relleno del botón a amarillo */
