@@ -144,6 +144,7 @@ if (isset($_SESSION['deliveryZoneId'])) {
             </div> -->
             <div class="modal-header" align="center">
                 <img id="img_logo" src="assets/img/navbar/logo.png" width="100">
+               
                 <button type="button" class="close custom-close-btn" data-dismiss="modal" aria-label="Close" style="color:red;">
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
@@ -154,19 +155,19 @@ if (isset($_SESSION['deliveryZoneId'])) {
             <div class="modal-body">
                 <div class="row">
                     <div class="col text-center">
-                        <a href="#" class="btn btn-light btn-lg btn-block" id="selectStoreSelectorLince" value="1"><strong>Lince</strong></a>
+                        <a href="#" class="btn btn-light btn-lg btn-block"  id="selectStoreSelectorLince" value="1"><strong>Lince</strong></a>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col text-center">
-                        <a href="#" class="btn btn-light btn-lg btn-block" id="selectStoreSelectorSurco" value="2"><strong>Surco</strong></a>
+                        <a href="#" class="btn btn-light btn-lg btn-block"  id="selectStoreSelectorSurco" value="2"><strong>Surco</strong></a>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col text-center">
-                        <a href="#" class="btn btn-light btn-lg btn-block" id="selectStoreSelectorSanMiguel" value="3"><strong>San Miguel</strong></a>
+                        <a href="#" class="btn btn-light btn-lg btn-block"  id="selectStoreSelectorSanMiguel" value="3"><strong>San Miguel</strong></a>
                     </div>
                 </div>
             </div>
@@ -183,6 +184,9 @@ if (isset($_SESSION['deliveryZoneId'])) {
             </div> -->
             <div class="modal-header" align="center">
                 <img id="img_logo" src="assets/img/navbar/logo.png" width="100">
+                  <a href="#" class="custom-back-btn" id="selectorArrowBack" value="1">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                 </a>
                 <button type="button" class="close custom-close-btn" data-dismiss="modal" aria-label="Close">
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
@@ -234,14 +238,14 @@ if (isset($_SESSION['deliveryZoneId'])) {
                                 </div> -->
                                 <div class="row">
                                     <div class="col">
-                                        <input onclick="selectShippinMethodClick(this)" value="DELIVERY" name="tipoReparto" checked class="d-none" type="radio" id="storeSelectorDelivery">
+                                        <input onclick="selectShippinMethodClick(this)" value="DELIVERY" name="tipoReparto"  class="d-none" type="radio" id="storeSelectorDelivery">
                                         <label for="storeSelectorDelivery" class="ingrediente-button w-100 align-self-end mt-auto text-center">Delivery
                                         </label>
                                     </div>
                                     <div class="col">
                                         <!--  <button id="storeSelectorRecojo" type="submit" class="zona-button w-100 align-self-end mt-auto text-center" value="RECOJO">Recojo
                                         </button> -->
-                                        <input onclick="selectShippinMethodClick(this)" value="RECOJO" name="tipoReparto" class="d-none" type="radio" id="storeSelectorRecojo">
+                                        <input onclick="selectShippinMethodClick(this)" value="RECOJO" name="tipoReparto" checked class="d-none" type="radio" id="storeSelectorRecojo">
                                         <label for="storeSelectorRecojo" class="zona-button w-100 align-self-end mt-auto text-center">Recojo
                                         </label>
 

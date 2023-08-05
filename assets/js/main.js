@@ -50,6 +50,8 @@ let selectStoreSelectorSanMiguel = D.getElementById(
   "selectStoreSelectorSanMiguel"
 );
 
+let selectorArrowBack = D.getElementById("selectorArrowBack");
+
 let selectStoreSelectorElement = D.getElementById("selectStoreSelector");
 let deliveryInputContainer = D.getElementById("deliveryInputContainer");
 let recojoInputContainer = D.getElementById("recojoInputContainer");
@@ -79,7 +81,7 @@ selectStoreSelectorLince.addEventListener("click", (ev) => {
   openAddressSelectorModalOpciones();
   $("#modalStoreSelectorLocal").modal("hide");
 
-  local_elegido.innerHTML = "Lince";
+  local_elegido.innerHTML = "Lince" + " - " + valorEntrega;
 });
 
 selectStoreSelectorSurco.addEventListener("click", (ev) => {
@@ -122,6 +124,12 @@ selectStoreSelectorSanMiguel.addEventListener("click", (ev) => {
 console.log(
   "valor selectStoreSelectorElement: " + selectStoreSelectorElement.value
 );
+
+selectorArrowBack.addEventListener("click", (ev) => {
+  openAddressSelectorModal();
+
+  $("#modalStoreSelector").modal("hide");
+});
 
 // Inicializar autocompletado de google maps
 function initAutocompleteStoreSelector() {
@@ -185,7 +193,7 @@ function initialAddressLoader() {
     localStorage.setItem("lat", "");
     localStorage.setItem("lng", "");
     selectStoreSelectorElement.value = localStorage.getItem("store") || "";
-    deliveryInputContainer.classList.remove("d-none");
+    deliveryInputContainer.classList.add("d-none");
   }
   if (addressIsSelected === "1") {
     storeSelectorInput.value = localStorage.getItem("address") || "";
@@ -197,6 +205,7 @@ function initialAddressLoader() {
       hiddenLngInput.value = localStorage.getItem("lng") || "";
     } else if (shippingType === "RECOJO") {
       //recojoInputContainer.classList.remove("d-none");
+      deliveryInputContainer.classList.add("d-none");
       radiostoreSelectorRecojo.checked = true;
       selectStoreSelectorElement.value = localStorage.getItem("store") || "";
     }
@@ -467,6 +476,7 @@ selectStoreSelectorElement.addEventListener("change", (ev) => {
 
 function selectShippinMethodClick(element) {
   console.log(element.value);
+
   if (element.value === "DELIVERY") {
     deliveryInputContainer.classList.remove("d-none");
     recojoInputContainer.classList.add("d-none");
